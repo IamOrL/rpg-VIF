@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%; }
+
+body {
+  display: flex; }
+
+/* Cover */
+.cover {
+  padding: 0 1.5rem; }
+
+.cover .btn-lg {
+  padding: 0.75rem 1.25rem;
+  font-weight: 700; }
+
+/* Elements */
+.upper-part,
+.down-part {
+  display: flex; }
+
+.upper-part {
+  flex-direction: row; }
+
+.down-part {
+  flex-direction: row-reverse; }
+
+.info {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start; }
+
+.profile_images {
+  width: 30px;
+  height: 30px; }
+
+.detail__histoire {
+  color: blue; }
